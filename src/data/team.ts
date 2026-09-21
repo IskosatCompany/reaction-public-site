@@ -1,5 +1,4 @@
-import beatrizPhoto from '@/assets/team/beatriz.jpg';
-import beatrizTPhoto from '@/assets/team/beatriz-t.jpg';
+import ritaPhoto from '@/assets/team/rita.jpg';
 import henriquePhoto from '@/assets/team/henrique.jpg';
 import joanaPhoto from '@/assets/team/joana.jpg';
 import joaoPhoto from '@/assets/team/joao.jpg';
@@ -26,18 +25,11 @@ export const teamMembers: readonly TeamMember[] = [
     linkedInUrl: 'https://www.linkedin.com/in/sérgio-de-sousa-santos-6587a652/',
   },
   {
-    id: 'beatriz',
-    name: 'Beatriz',
+    id: 'rita',
+    name: 'Rita',
     role: PENDING_ROLE,
-    photo: beatrizPhoto,
-    photoAlt: 'Beatriz, equipa Reaction',
-  },
-  {
-    id: 'beatriz-t',
-    name: 'Beatriz T.',
-    role: PENDING_ROLE,
-    photo: beatrizTPhoto,
-    photoAlt: 'Beatriz T., equipa Reaction',
+    photo: ritaPhoto,
+    photoAlt: 'Rita, equipa Reaction',
   },
   {
     id: 'henrique',

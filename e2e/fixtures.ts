@@ -7,8 +7,7 @@
  */
 export const TEAM_MEMBERS = [
   'Sérgio Santos',
-  'Beatriz',
-  'Beatriz T.',
+  'Rita',
   'Henrique',
   'Joana',
   'João',

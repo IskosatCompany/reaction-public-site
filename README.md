@@ -92,8 +92,9 @@ propósito: um teste não deve passar só por partilhar a constante com o códig
 Santos tem função e bio. Os restantes estão com `PENDING_ROLE` e só o primeiro nome —
 faltam apelidos e especialidades.
 
-Dois casos a validar: os ficheiros `R_Beatriz*` e `R_TBeatriz_1` parecem ser **duas
-pessoas diferentes**, listadas como `Beatriz` e `Beatriz T.`.
+Os originais em `raw-assets/team/` chamam-se `R_Beatriz*` / `R_TBeatriz_1`, mas
+tratam-se todos da **Rita** — nomes dados na sessão fotográfica, ainda por corrigir.
+`rita-alt.jpg` é uma pose alternativa dela, disponível caso se prefira àquela em uso.
 
 Os links de Política de Privacidade e Condições Gerais em `src/data/site.ts` apontam para
 `#` — falta o conteúdo legal.
