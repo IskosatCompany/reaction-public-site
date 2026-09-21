@@ -1,0 +1,39 @@
+.footer {
+  border-top: 1px solid var(--color-line);
+  padding: 40px 0;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  height: 26px;
+}
+
+.copyright {
+  color: var(--color-grey);
+  font-size: 14px;
+}
+
+.legal {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-line);
+  text-align: center;
+  color: var(--color-grey);
+  font-size: 13px;
+}
+
+.legal a {
+  color: var(--color-grey);
+  transition: color var(--transition-fast);
+}
+
+.legal a:hover {
+  color: var(--color-red);
+}

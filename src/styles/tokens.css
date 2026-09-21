@@ -1,0 +1,33 @@
+/**
+ * Design tokens da Reaction.
+ * Única fonte de verdade para cores, tipografia e medidas partilhadas.
+ */
+:root {
+  /* Cores */
+  --color-black: #0a0a0a;
+  --color-near-black: #141414;
+  --color-red: #d91312;
+  --color-white: #ffffff;
+  --color-grey: #8a8a8a;
+  --color-text-muted: #b0b0b0;
+  --color-text-soft: #c7c7c7;
+  --color-text-body: #d8d8d8;
+  --color-text-quote: #eaeaea;
+  --color-line: rgba(255, 255, 255, 0.12);
+
+  /* Tipografia */
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Layout */
+  --layout-max-width: 1180px;
+  --layout-gutter: 32px;
+  --header-height: 66px;
+
+  /* Transições */
+  --transition-fast: 0.2s ease;
+  --transition-slide: 0.5s ease;
+
+  /* Breakpoint de referência (apenas documental — media queries usam o valor literal) */
+  --breakpoint-md: 860px;
+}

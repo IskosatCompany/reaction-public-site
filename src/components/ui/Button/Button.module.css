@@ -1,0 +1,36 @@
+.button {
+  display: inline-block;
+  padding: 14px 30px;
+  background: var(--color-red);
+  color: var(--color-white);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid var(--color-red);
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.button:hover {
+  background: transparent;
+  color: var(--color-white);
+}
+
+.outline {
+  background: transparent;
+  border-color: var(--color-white);
+}
+
+.outline:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.compact {
+  padding: 10px 22px;
+  font-size: 14px;
+}

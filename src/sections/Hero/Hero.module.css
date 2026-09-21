@@ -1,0 +1,49 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.55) 0%,
+      rgba(10, 10, 10, 0.75) 55%,
+      rgba(10, 10, 10, 0.95) 100%
+    ),
+    url('../../assets/gym-1.jpg') center 30% / cover no-repeat;
+}
+
+.inner {
+  max-width: var(--layout-max-width);
+  margin: 0 auto;
+  padding: 140px var(--layout-gutter) 80px;
+  width: 100%;
+}
+
+.title {
+  font-size: clamp(38px, 6vw, 74px);
+  max-width: 14ch;
+  margin-bottom: 22px;
+}
+
+.accent {
+  color: var(--color-red);
+}
+
+.tagline {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.4vw, 28px);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+  border-left: 4px solid var(--color-red);
+  padding-left: 16px;
+  margin-bottom: 34px;
+  max-width: 32ch;
+}
+
+.ctas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}

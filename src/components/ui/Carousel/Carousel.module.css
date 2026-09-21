@@ -1,0 +1,63 @@
+.carousel {
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  transition: transform var(--transition-slide);
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 36px;
+}
+
+.arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid var(--color-line);
+  background: transparent;
+  color: var(--color-white);
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.arrow:hover {
+  border-color: var(--color-red);
+  color: var(--color-red);
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--color-line);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dotActive {
+  background: var(--color-red);
+}

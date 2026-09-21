@@ -1,0 +1,10 @@
+.eyebrow {
+  display: block;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-red);
+  margin-bottom: 14px;
+}

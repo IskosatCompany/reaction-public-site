@@ -1,0 +1,14 @@
+.heading {
+  max-width: 640px;
+  margin-bottom: 56px;
+}
+
+.title {
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 18px;
+}
+
+.description {
+  color: var(--color-text-soft);
+  font-size: 17px;
+}

@@ -1,0 +1,28 @@
+.slide {
+  max-width: 760px;
+  min-height: 180px;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  font-family: var(--font-display);
+  color: var(--color-red);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: clamp(28px, 3.6vw, 42px);
+  margin-bottom: 16px;
+  text-transform: none;
+}
+
+.description {
+  color: var(--color-text-body);
+  font-size: 17px;
+  max-width: 56ch;
+}
