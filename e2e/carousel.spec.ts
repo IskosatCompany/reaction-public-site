@@ -77,13 +77,12 @@ test.describe('Carrossel da equipa', () => {
     ).toBeVisible();
   });
 
-  test('o cartão do fundador tem citação e LinkedIn', async ({ page }) => {
+  test('o cartão do fundador tem função e LinkedIn', async ({ page }) => {
     const section = await openSection(page, 'equipa');
     const slide = activeSlide(section);
 
     await expect(slide.getByRole('heading', { name: 'Sérgio Santos' })).toBeVisible();
     await expect(slide).toContainText('Fundador e Coordenador Clínico');
-    await expect(slide.locator('blockquote')).toContainText('recuperar, a evoluir');
 
     const linkedIn = slide.getByRole('link', { name: 'LinkedIn de Sérgio Santos' });
     await expect(linkedIn).toHaveAttribute('href', /linkedin\.com/);

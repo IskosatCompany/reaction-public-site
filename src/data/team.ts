@@ -5,7 +5,7 @@ import joaoPhoto from '@/assets/team/joao.jpg';
 import pedroPhoto from '@/assets/team/pedro.jpg';
 import sergioPhoto from '@/assets/team/sergio-santos.jpg';
 import tomasPhoto from '@/assets/team/tomas.jpg';
-import type { TeamMember } from '@/types';
+import type { Quote, TeamMember } from '@/types';
 
 /**
  * Especialidade em falta. Os retratos da equipa já são os definitivos, mas as
@@ -20,8 +20,6 @@ export const teamMembers: readonly TeamMember[] = [
     role: 'Fundador e Coordenador Clínico · Osteopata · Performance Coach',
     photo: sergioPhoto,
     photoAlt: 'Sérgio Santos, fundador da Reaction',
-    quote:
-      'Este novo espaço é a concretização de uma visão construída ao longo de vários anos, assente na qualidade da resposta, na proximidade e na procura constante da inovação e excelência. Queremos que cada pessoa que entra na Reaction encontre uma equipa preparada para a ajudar a recuperar, a evoluir e a atingir o seu melhor potencial.',
     linkedInUrl: 'https://www.linkedin.com/in/sérgio-de-sousa-santos-6587a652/',
   },
   {
@@ -67,3 +65,9 @@ export const teamMembers: readonly TeamMember[] = [
     photoAlt: 'Tomás, equipa Reaction',
   },
 ];
+
+/** Citação do fundador, apresentada na secção Instalações. */
+export const founderQuote: Quote = {
+  text: 'Este espaço é a concretização de uma visão construída ao longo de vários anos, assente na qualidade da resposta, na proximidade e na procura constante da inovação e excelência. Queremos que cada pessoa que entra na Reaction encontre uma equipa preparada para a ajudar a recuperar, a evoluir e a atingir o seu melhor potencial.',
+  author: 'Sérgio Santos, Fundador',
+};

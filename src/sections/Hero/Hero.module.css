@@ -3,17 +3,70 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background:
-    linear-gradient(
-      180deg,
-      rgba(10, 10, 10, 0.55) 0%,
-      rgba(10, 10, 10, 0.75) 55%,
-      rgba(10, 10, 10, 0.95) 100%
-    ),
-    url('../../assets/gym-1.jpg') center 30% / cover no-repeat;
+  overflow: hidden;
+  background: var(--color-black);
+}
+
+.slides {
+  position: absolute;
+  inset: 0;
+}
+
+/* Duração e atraso de cada imagem vêm de Hero.tsx (7 s por imagem). */
+.slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  opacity: 0;
+  animation: hero-fade infinite;
+}
+
+/* Afinado para 7 imagens: cada uma ocupa ~1/7 (14%) do ciclo. */
+@keyframes hero-fade {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  13% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide {
+    animation: none !important;
+  }
+
+  .slide:first-child {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 10, 0.55) 0%,
+    rgba(10, 10, 10, 0.75) 55%,
+    rgba(10, 10, 10, 0.95) 100%
+  );
 }
 
 .inner {
+  position: relative;
   max-width: var(--layout-max-width);
   margin: 0 auto;
   padding: 140px var(--layout-gutter) 80px;

@@ -18,12 +18,6 @@ export function TeamMemberCard({ member }: TeamMemberCardProps) {
 
         {member.bio ? <p className={styles.bio}>{member.bio}</p> : null}
 
-        {member.quote ? (
-          <blockquote className={styles.quote}>
-            “{member.quote}”<cite>{member.name}</cite>
-          </blockquote>
-        ) : null}
-
         {member.linkedInUrl ? (
           <a
             className={styles.linkedIn}

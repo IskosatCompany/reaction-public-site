@@ -22,9 +22,20 @@ export interface TeamMember {
   role: string;
   photo: string;
   photoAlt: string;
-  quote?: string;
   bio?: string;
   linkedInUrl?: string;
+}
+
+export interface Quote {
+  text: string;
+  author: string;
+}
+
+export interface HeroSlide {
+  id: string;
+  src: string;
+  /** `background-position` da imagem; por omissão `center 30%`. */
+  position?: string;
 }
 
 export interface GalleryImage {

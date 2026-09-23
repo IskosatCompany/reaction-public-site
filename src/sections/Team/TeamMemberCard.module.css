@@ -34,27 +34,6 @@
   font-size: 17px;
 }
 
-.quote {
-  margin-top: 28px;
-  padding: 26px 28px;
-  border-left: 4px solid var(--color-red);
-  background: var(--color-near-black);
-  font-style: italic;
-  color: var(--color-text-quote);
-  font-size: 16.5px;
-}
-
-.quote cite {
-  display: block;
-  margin-top: 14px;
-  font-style: normal;
-  font-family: var(--font-display);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--color-red);
-  font-size: 14px;
-}
-
 .linkedIn {
   display: inline-flex;
   align-items: center;
