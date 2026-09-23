@@ -1,6 +1,6 @@
 # Reaction — site
 
-Site de uma página (React + Vite), pré-renderizado no build (`scripts/prerender.js`). Alojado no Cloudflare Pages, domínio `reaction.pt`.
+Site de uma página (React + Vite), pré-renderizado no build (`scripts/prerender.js`). Alojado num Cloudflare Worker só com ficheiros estáticos (`wrangler.jsonc`), domínio `reaction.pt`.
 
 ## Qualidade do código
 
@@ -15,9 +15,9 @@ Site de uma página (React + Vite), pré-renderizado no build (`scripts/prerende
 ## Deploy
 
 - Cada push para `main` publica automaticamente em produção (build `npm run build`, output `dist`, Node definido em `.node-version`).
-- Push para outro branch gera um URL de preview (`<branch>.reaction.pages.dev`).
+- O comando de deploy no Cloudflare é `npx wrangler deploy`, que publica o `dist` conforme o `wrangler.jsonc`. Sem esse ficheiro, o wrangler reconfigura o projeto sozinho e o build falha.
 - Build falhado não é publicado; rollback em Workers & Pages → reaction → Deployments.
-- `public/404.html` tem de existir: sem ele o Cloudflare Pages trata o site como SPA e devolve a homepage com 200 em qualquer URL.
+- `public/404.html` tem de existir e o `wrangler.jsonc` tem de manter `not_found_handling: "404-page"`: caso contrário, qualquer URL devolve a homepage com 200.
 - Cache e cabeçalhos de segurança em `public/_headers`.
 
 ## Lembretes para o utilizador
