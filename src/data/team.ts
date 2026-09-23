@@ -1,10 +1,10 @@
-import ritaPhoto from '@/assets/team/rita.jpg';
-import henriquePhoto from '@/assets/team/henrique.jpg';
-import joanaPhoto from '@/assets/team/joana.jpg';
-import joaoPhoto from '@/assets/team/joao.jpg';
-import pedroPhoto from '@/assets/team/pedro.jpg';
-import sergioPhoto from '@/assets/team/sergio-santos.jpg';
-import tomasPhoto from '@/assets/team/tomas.jpg';
+import ritaPhoto from '@/assets/team/rita.webp';
+import henriquePhoto from '@/assets/team/henrique.webp';
+import joanaPhoto from '@/assets/team/joana.webp';
+import joaoPhoto from '@/assets/team/joao.webp';
+import pedroPhoto from '@/assets/team/pedro.webp';
+import sergioPhoto from '@/assets/team/sergio-santos.webp';
+import tomasPhoto from '@/assets/team/tomas.webp';
 import type { Quote, TeamMember } from '@/types';
 
 /**

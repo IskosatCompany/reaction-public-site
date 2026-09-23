@@ -1,5 +1,5 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 
 import { App } from '@/App';
 import '@/styles/global.css';
@@ -10,8 +10,15 @@ if (!container) {
   throw new Error('Elemento #root não encontrado no index.html');
 }
 
-createRoot(container).render(
+const app = (
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 );
+
+// Em produção o HTML já vem pré-renderizado (scripts/prerender.js); em dev o #root está vazio.
+if (container.hasChildNodes()) {
+  hydrateRoot(container, app);
+} else {
+  createRoot(container).render(app);
+}

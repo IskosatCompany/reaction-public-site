@@ -1,4 +1,4 @@
-import logo from '@/assets/logo-full-transparent.png';
+import logo from '@/assets/logo-full-transparent.webp';
 import { Button } from '@/components/ui';
 import { CloseIcon, MenuIcon } from '@/components/ui/icons';
 import { navLinks, site } from '@/data';

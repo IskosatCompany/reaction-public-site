@@ -1,4 +1,4 @@
-import facade from '@/assets/facade-2.jpg';
+import facade from '@/assets/facade-2.webp';
 import { Section } from '@/components/layout';
 import { Eyebrow } from '@/components/ui';
 
@@ -27,7 +27,12 @@ export function About() {
           <p className={styles.quote}>Não tratamos episódios. Acompanhamos percursos.</p>
         </div>
 
-        <img className={styles.image} src={facade} alt="Reaction — fachada, Coimbra" />
+        <img
+          className={styles.image}
+          src={facade}
+          alt="Reaction — fachada, Coimbra"
+          loading="lazy"
+        />
       </div>
     </Section>
   );

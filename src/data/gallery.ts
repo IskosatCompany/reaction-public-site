@@ -1,9 +1,9 @@
-import facadeOne from '@/assets/facade-1.jpg';
-import galleryOne from '@/assets/gallery-1.jpg';
-import galleryTwo from '@/assets/gallery-2.jpg';
-import galleryThree from '@/assets/gallery-3.jpg';
-import galleryFour from '@/assets/gallery-4.jpg';
-import reception from '@/assets/sergio-reception.jpg';
+import facadeOne from '@/assets/facade-1.webp';
+import galleryOne from '@/assets/gallery-1.webp';
+import galleryTwo from '@/assets/gallery-2.webp';
+import galleryThree from '@/assets/gallery-3.webp';
+import galleryFour from '@/assets/gallery-4.webp';
+import reception from '@/assets/sergio-reception.webp';
 import type { GalleryImage } from '@/types';
 
 export const galleryImages: readonly GalleryImage[] = [

@@ -2,6 +2,7 @@ import type { ContactDetail, SocialLink } from '@/types';
 
 export const site = {
   name: 'Reaction',
+  url: 'https://reaction.pt',
   tagline: 'Centro de Reabilitação e Performance',
   city: 'Coimbra',
   phone: '910 372 125',
@@ -12,6 +13,20 @@ export const site = {
   mapsUrl: 'https://maps.app.goo.gl/yaUjV1dZ7TNA5Mbf9',
   mapsEmbedUrl:
     'https://www.google.com/maps?q=R.+Lu%C3%ADs+da+Costa+Almeida+6,+Alto+de+S%C3%A3o+Jo%C3%A3o,+3030-163+Coimbra&output=embed',
+  postalAddress: {
+    streetAddress: 'R. Luís da Costa Almeida 6, Alto de São João',
+    postalCode: '3030-163',
+    addressLocality: 'Coimbra',
+    addressCountry: 'PT',
+  },
+  openingHours: [
+    {
+      days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '07:00',
+      closes: '21:00',
+    },
+    { days: ['Saturday'], opens: '09:00', closes: '13:00' },
+  ],
 } as const;
 
 export const contactDetails: readonly ContactDetail[] = [

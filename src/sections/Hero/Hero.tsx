@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react';
+import { preload } from 'react-dom';
 
 import { Button } from '@/components/ui';
 import { heroSlides, site } from '@/data';
@@ -9,6 +10,10 @@ import styles from './Hero.module.css';
 const SLIDE_SECONDS = 7;
 
 export function Hero() {
+  // A primeira imagem é o maior elemento visível ao abrir a página (LCP); como é
+  // um background CSS, o browser só a descobriria tarde sem este preload.
+  preload(heroSlides[0].src, { as: 'image', fetchPriority: 'high' });
+
   return (
     <section className={styles.hero} id="top">
       <div className={styles.slides} aria-hidden="true">

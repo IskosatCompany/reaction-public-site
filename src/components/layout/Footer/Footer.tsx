@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import logo from '@/assets/logo-full-transparent.png';
+import logo from '@/assets/logo-full-transparent.webp';
 import { Container } from '@/components/layout/Container';
 import { legalLinks, site } from '@/data';
 
@@ -13,7 +13,8 @@ export function Footer() {
     <footer className={styles.footer}>
       <Container className={styles.inner}>
         <img src={logo} alt={site.name} className={styles.logo} />
-        <p className={styles.copyright}>
+        {/* O ano vem do build pré-renderizado e pode diferir do ano no browser. */}
+        <p className={styles.copyright} suppressHydrationWarning>
           © {currentYear} {site.name} — {site.tagline}. {site.city}.
         </p>
       </Container>
