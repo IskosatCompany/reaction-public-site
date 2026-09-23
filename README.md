@@ -52,9 +52,8 @@ e2e/                 Testes Playwright + fixtures com os valores esperados
 raw-assets/team/     Fotografias originais da sessão (3868x5794, ~11MB cada)
 ```
 
-`raw-assets/` guarda os originais sem tratamento e pesa ~311MB. Não está em
-`.gitignore` de propósito — decide se queres versioná-los ou mantê-los apenas
-fora do repositório (nesse caso acrescenta `raw-assets/` ao `.gitignore`).
+`raw-assets/` guarda os originais sem tratamento (~300MB). Está no `.gitignore`:
+existe só localmente e não vai para o repositório.
 
 ### Convenções
 
@@ -94,7 +93,6 @@ faltam apelidos e especialidades.
 
 Os originais em `raw-assets/team/` chamam-se `R_Beatriz*` / `R_TBeatriz_1`, mas
 tratam-se todos da **Rita** — nomes dados na sessão fotográfica, ainda por corrigir.
-`rita-alt.jpg` é uma pose alternativa dela, disponível caso se prefira àquela em uso.
 
 Os links de Política de Privacidade e Condições Gerais em `src/data/site.ts` apontam para
 `#` — falta o conteúdo legal.
