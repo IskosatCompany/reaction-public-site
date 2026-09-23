@@ -36,7 +36,7 @@ export function Hero() {
 
       <div className={styles.inner}>
         <h1 className={styles.title}>
-          Da gestão da dor à <span className={styles.accent}>optimização do desempenho.</span>
+          Da gestão da dor à <span className={styles.accent}>otimização do desempenho.</span>
         </h1>
         <p className={styles.tagline}>Seja qual for o ponto de partida.</p>
         <div className={styles.ctas}>

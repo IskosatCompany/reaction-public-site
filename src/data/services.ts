@@ -19,7 +19,7 @@ export const services: readonly Service[] = [
   {
     id: 'alta-performance',
     title: 'Treino de Alta Performance',
-    description: 'Optimização do desempenho físico e desportivo.',
+    description: 'Otimização do desempenho físico e desportivo.',
   },
   {
     id: 'pilates',
@@ -34,7 +34,7 @@ export const services: readonly Service[] = [
   {
     id: 'nutricao',
     title: 'Nutrição',
-    description: 'Alimentação ajustada a objectivos e rotina.',
+    description: 'Alimentação ajustada a objetivos e rotina.',
   },
   {
     id: 'podologia',

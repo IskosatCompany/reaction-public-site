@@ -10,7 +10,7 @@ const localBusiness = {
   '@type': 'Physiotherapy',
   '@id': `${site.url}/#business`,
   name: site.name,
-  description: `${site.name} — ${site.tagline} em ${site.city}. Da gestão da dor à optimização do desempenho.`,
+  description: `${site.name} — ${site.tagline} em ${site.city}. Da gestão da dor à otimização do desempenho.`,
   url: site.url,
   image: `${site.url}/og-image.jpg`,
   telephone: site.phoneE164,

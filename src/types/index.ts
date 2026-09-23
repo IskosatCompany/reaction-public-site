@@ -23,6 +23,8 @@ export interface TeamMember {
   photo: string;
   photoAlt: string;
   bio?: string;
+  /** Frase pessoal, apresentada como citação no cartão. */
+  quote?: string;
   linkedInUrl?: string;
 }
 

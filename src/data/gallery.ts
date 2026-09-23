@@ -9,7 +9,7 @@ import type { GalleryImage } from '@/types';
 export const galleryImages: readonly GalleryImage[] = [
   { id: 'gallery-1', src: galleryOne, alt: 'Reaction — tratamento de osteopatia', tall: true },
   { id: 'facade-1', src: facadeOne, alt: 'Reaction — fachada exterior' },
-  { id: 'reception', src: reception, alt: 'Sérgio Santos na recepção Reaction' },
+  { id: 'reception', src: reception, alt: 'Sérgio Santos na receção Reaction' },
   {
     id: 'gallery-2',
     src: galleryTwo,

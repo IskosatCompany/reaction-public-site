@@ -18,7 +18,7 @@ export function About() {
           <p>
             Na Reaction partimos de uma visão diferente: a dor, as lesões e a performance não estão
             dissociadas, e por isso a resposta tem de ser integrada e individualizada. Juntos
-            co-construímos um plano em que a pessoa é parte activa no seu processo de reabilitação.
+            co-construímos um plano em que a pessoa é parte ativa no seu processo de reabilitação.
           </p>
           <p>
             Equipa multidisciplinar. Acompanhamento verdadeiramente personalizado, sediado em

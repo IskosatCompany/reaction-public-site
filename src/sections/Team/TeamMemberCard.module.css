@@ -28,6 +28,15 @@
   letter-spacing: 0;
 }
 
+.quote {
+  margin-top: 22px;
+  padding-left: 20px;
+  border-left: 3px solid var(--color-red);
+  font-style: italic;
+  color: var(--color-text-quote);
+  font-size: 18px;
+}
+
 .bio {
   margin-top: 18px;
   color: var(--color-text-body);

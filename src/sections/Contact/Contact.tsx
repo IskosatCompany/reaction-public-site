@@ -10,7 +10,7 @@ export function Contact() {
       <SectionHeading
         eyebrow="Contactos"
         title="Fala connosco"
-        description="Marca a tua primeira consulta ou tira dúvidas directamente com a equipa."
+        description="Marca a tua primeira consulta ou tira dúvidas diretamente com a equipa."
       />
 
       <div className={styles.grid}>

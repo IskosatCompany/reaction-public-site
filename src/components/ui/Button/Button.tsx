@@ -13,7 +13,7 @@ interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   size?: ButtonSize;
 }
 
-/** CTA do site. É sempre uma âncora — todas as acções levam a um link externo ou a uma secção. */
+/** CTA do site. É sempre uma âncora — todas as ações levam a um link externo ou a uma secção. */
 export function Button({
   href,
   variant = 'solid',

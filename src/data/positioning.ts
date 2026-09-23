@@ -20,6 +20,6 @@ export const positioningSlides: readonly PositioningSlide[] = [
     label: '03 — Potencial',
     title: 'Alcança o teu potencial.',
     description:
-      'Acompanhamento individual, seja qual for o objectivo — da prevenção à competição.',
+      'Acompanhamento individual, seja qual for o objetivo — da prevenção à competição.',
   },
 ];

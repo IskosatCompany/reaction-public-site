@@ -7,10 +7,7 @@ import sergioPhoto from '@/assets/team/sergio-santos.webp';
 import tomasPhoto from '@/assets/team/tomas.webp';
 import type { Quote, TeamMember } from '@/types';
 
-/**
- * Especialidade em falta. Os retratos da equipa já são os definitivos, mas as
- * funções e as bios ainda não foram fornecidas — substituir à medida que chegam.
- */
+/** Especialidade em falta — substituir quando for fornecida. */
 const PENDING_ROLE = 'Especialidade a confirmar';
 
 export const teamMembers: readonly TeamMember[] = [
@@ -20,49 +17,65 @@ export const teamMembers: readonly TeamMember[] = [
     role: 'Fundador e Coordenador Clínico · Osteopata · Performance Coach',
     photo: sergioPhoto,
     photoAlt: 'Sérgio Santos, fundador da Reaction',
+    quote:
+      'Qualquer atividade física, seja ela de reabilitação ou de otimização da performance, tem sempre o mesmo objetivo: a excelência do movimento.',
     linkedInUrl: 'https://www.linkedin.com/in/sérgio-de-sousa-santos-6587a652/',
   },
   {
-    id: 'rita',
-    name: 'Rita',
-    role: PENDING_ROLE,
-    photo: ritaPhoto,
-    photoAlt: 'Rita, equipa Reaction',
-  },
-  {
     id: 'henrique',
-    name: 'Henrique',
-    role: PENDING_ROLE,
+    name: 'Henrique Lourenço',
+    role: 'Performance Coach · Personal Trainer · Treino Desportivo e de Futebol',
     photo: henriquePhoto,
-    photoAlt: 'Henrique, equipa Reaction',
-  },
-  {
-    id: 'joana',
-    name: 'Joana',
-    role: PENDING_ROLE,
-    photo: joanaPhoto,
-    photoAlt: 'Joana, equipa Reaction',
-  },
-  {
-    id: 'joao',
-    name: 'João',
-    role: PENDING_ROLE,
-    photo: joaoPhoto,
-    photoAlt: 'João, equipa Reaction',
+    photoAlt: 'Henrique Lourenço, equipa Reaction',
+    quote:
+      'O verdadeiro valor do treino vai além da performance: está em construir confiança, saúde e uma evolução sustentável, num ambiente familiar.',
   },
   {
     id: 'pedro',
-    name: 'Pedro',
-    role: PENDING_ROLE,
+    name: 'Pedro Cortesão',
+    role: 'Fisioterapeuta',
     photo: pedroPhoto,
-    photoAlt: 'Pedro, equipa Reaction',
+    photoAlt: 'Pedro Cortesão, equipa Reaction',
+    quote:
+      'Queremos fazer da Reaction uma referência na região Centro, com uma equipa multidisciplinar que eleva padrões e faz da excelência uma prática diária.',
   },
   {
     id: 'tomas',
-    name: 'Tomás',
-    role: PENDING_ROLE,
+    name: 'Tomás Abrantes',
+    role: 'Performance Coach · Personal Trainer',
     photo: tomasPhoto,
-    photoAlt: 'Tomás, equipa Reaction',
+    photoAlt: 'Tomás Abrantes, equipa Reaction',
+    quote:
+      'Cada pessoa tem um ponto de partida diferente. Construo o caminho à medida dos seus objetivos, para que cada sessão seja uma oportunidade de evoluir.',
+    linkedInUrl: 'https://www.linkedin.com/in/tomas-abrantes-311b04359/',
+  },
+  {
+    id: 'joana',
+    name: 'Joana Feteira',
+    role: PENDING_ROLE,
+    photo: joanaPhoto,
+    photoAlt: 'Joana Feteira, equipa Reaction',
+    quote:
+      'O movimento é o nosso foco, mas é a experiência de cada pessoa que dá sentido ao trabalho. Aqui, todos se sentem em casa.',
+  },
+  {
+    id: 'joao',
+    name: 'João Ferreira',
+    role: 'Fisioterapeuta · Músculo-esquelética · Fisioterapia Desportiva · Strength & Conditioning',
+    photo: joaoPhoto,
+    photoAlt: 'João Ferreira, equipa Reaction',
+    quote:
+      'Cada pessoa tem potencial para ser mais capaz. Parto dos seus objetivos e uso o movimento para recuperar, desenvolver e potenciar a performance.',
+  },
+  {
+    id: 'rita',
+    name: 'Rita Martins',
+    role: 'Fisioterapeuta · Músculo-esquelética · Pilates Clínico',
+    photo: ritaPhoto,
+    photoAlt: 'Rita Martins, equipa Reaction',
+    quote:
+      'Acredito numa abordagem individualizada, que ajude cada pessoa a recuperar a confiança no movimento e a viver com mais qualidade.',
+    linkedInUrl: 'https://www.linkedin.com/in/ana-rita-martins-369a221b3/',
   },
 ];
 
