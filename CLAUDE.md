@@ -1,6 +1,6 @@
 # Reaction — site
 
-Site de uma página (React + Vite), pré-renderizado no build (`scripts/prerender.js`). Alojado num Cloudflare Worker só com ficheiros estáticos (`wrangler.jsonc`), domínio `reaction.pt`.
+Site de uma página (React + Vite), pré-renderizado no build (`scripts/prerender.js`). Alojado na Vercel como site estático (`vercel.json`), domínio `reaction.pt`.
 
 ## Qualidade do código
 
@@ -14,11 +14,11 @@ Site de uma página (React + Vite), pré-renderizado no build (`scripts/prerende
 
 ## Deploy
 
-- Cada push para `main` publica automaticamente em produção (build `npm run build`, output `dist`, Node definido em `.node-version`).
-- O comando de deploy no Cloudflare é `npx wrangler deploy`, que publica o `dist` conforme o `wrangler.jsonc`. Sem esse ficheiro, o wrangler reconfigura o projeto sozinho e o build falha.
-- Build falhado não é publicado; rollback em Workers & Pages → reaction → Deployments.
-- `public/404.html` tem de existir e o `wrangler.jsonc` tem de manter `not_found_handling: "404-page"`: caso contrário, qualquer URL devolve a homepage com 200.
-- Cache e cabeçalhos de segurança em `public/_headers`.
+- Cada push para `main` publica automaticamente em produção na Vercel (build `npm run build`, output `dist`, definidos em `vercel.json`). A versão do Node é a das Settings do projeto na Vercel; manter igual à de `.node-version`.
+- Build falhado não é publicado; rollback em Vercel → projeto → Deployments → Instant Rollback.
+- `public/404.html` tem de existir: a Vercel serve-o com estado 404 para URLs inexistentes.
+- Cache e cabeçalhos de segurança em `vercel.json` (`headers`).
+- DNS do `reaction.pt` fica na Hostinger, partilhado com outra app da equipa (`api`, `app`). Só se mexe nos registos do `reaction.pt` e do `www`.
 
 ## Lembretes para o utilizador
 
