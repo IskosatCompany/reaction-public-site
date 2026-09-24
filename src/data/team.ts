@@ -38,6 +38,7 @@ export const teamMembers: readonly TeamMember[] = [
     photoAlt: 'Pedro Cortesão, equipa Reaction',
     quote:
       'Queremos fazer da Reaction uma referência na região Centro, com uma equipa multidisciplinar que eleva padrões e faz da excelência uma prática diária.',
+    linkedInUrl: 'https://www.linkedin.com/in/pedrocortesao/',
   },
   {
     id: 'tomas',

@@ -1,4 +1,4 @@
-export { galleryImages } from './gallery';
+export { galleryImages, teamGroupImage } from './gallery';
 export { heroSlides } from './hero';
 export { navLinks } from './navigation';
 export { positioningSlides } from './positioning';

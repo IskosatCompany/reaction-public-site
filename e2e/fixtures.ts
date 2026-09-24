@@ -44,4 +44,4 @@ export const NAV_ITEMS = [
 export const WHATSAPP_URL = 'https://wa.me/351910372125';
 export const PHONE_HREF = 'tel:+351910372125';
 export const EMAIL_HREF = 'mailto:reaction.sergiosantos@gmail.com';
-export const GALLERY_IMAGE_COUNT = 6;
+export const GALLERY_IMAGE_COUNT = 5;

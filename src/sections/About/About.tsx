@@ -1,4 +1,4 @@
-import facade from '@/assets/facade-2.webp';
+import therapy from '@/assets/about-therapy.webp';
 import { Section } from '@/components/layout';
 import { Eyebrow } from '@/components/ui';
 
@@ -29,8 +29,8 @@ export function About() {
 
         <img
           className={styles.image}
-          src={facade}
-          alt="Reaction — fachada, Coimbra"
+          src={therapy}
+          alt="Sérgio Santos em sessão de tratamento"
           loading="lazy"
         />
       </div>

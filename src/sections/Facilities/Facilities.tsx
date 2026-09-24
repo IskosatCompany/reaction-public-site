@@ -1,6 +1,6 @@
 import { Section } from '@/components/layout';
 import { SectionHeading } from '@/components/ui';
-import { founderQuote, galleryImages, site } from '@/data';
+import { founderQuote, galleryImages, site, teamGroupImage } from '@/data';
 import { cx } from '@/utils';
 
 import styles from './Facilities.module.css';
@@ -17,6 +17,13 @@ export function Facilities() {
       <blockquote className={styles.quote}>
         “{founderQuote.text}”<cite>{founderQuote.author}</cite>
       </blockquote>
+
+      <img
+        className={styles.feature}
+        src={teamGroupImage.src}
+        alt={teamGroupImage.alt}
+        loading="lazy"
+      />
 
       <ul className={styles.grid}>
         {galleryImages.map((image) => (

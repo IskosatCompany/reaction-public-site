@@ -1,21 +1,20 @@
-import facadeOne from '@/assets/facade-1.webp';
-import galleryOne from '@/assets/gallery-1.webp';
-import galleryTwo from '@/assets/gallery-2.webp';
-import galleryThree from '@/assets/gallery-3.webp';
-import galleryFour from '@/assets/gallery-4.webp';
-import reception from '@/assets/sergio-reception.webp';
+import entrance from '@/assets/entrance.webp';
+import facadeFront from '@/assets/facade-front.webp';
+import spaceInterior from '@/assets/space-interior.webp';
+import teamGroup from '@/assets/team-group.webp';
+import therapyLaser from '@/assets/therapy-laser.webp';
 import type { GalleryImage } from '@/types';
 
+/** Foto de grupo, apresentada inteira (sem recorte) antes da grelha. */
+export const teamGroupImage: GalleryImage = {
+  id: 'team-group',
+  src: teamGroup,
+  alt: 'Equipa Reaction nas instalações',
+};
+
 export const galleryImages: readonly GalleryImage[] = [
-  { id: 'gallery-1', src: galleryOne, alt: 'Reaction — tratamento de osteopatia', tall: true },
-  { id: 'facade-1', src: facadeOne, alt: 'Reaction — fachada exterior' },
-  { id: 'reception', src: reception, alt: 'Sérgio Santos na receção Reaction' },
-  {
-    id: 'gallery-2',
-    src: galleryTwo,
-    alt: 'Reaction — sessão de treino com banda elástica',
-    tall: true,
-  },
-  { id: 'gallery-3', src: galleryThree, alt: 'Cliente Reaction em treino' },
-  { id: 'gallery-4', src: galleryFour, alt: 'Reaction — sessão de tratamento' },
+  { id: 'entrance', src: entrance, alt: 'Reaction — entrada' },
+  { id: 'space-interior', src: spaceInterior, alt: 'Reaction — zona de treino' },
+  { id: 'facade-front', src: facadeFront, alt: 'Reaction — fachada, Coimbra' },
+  { id: 'therapy-laser', src: therapyLaser, alt: 'Reaction — sessão de laserterapia' },
 ];
