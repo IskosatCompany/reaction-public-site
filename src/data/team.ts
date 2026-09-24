@@ -26,6 +26,7 @@ export const teamMembers: readonly TeamMember[] = [
     photoAlt: 'Henrique Lourenço, equipa Reaction',
     quote:
       'O verdadeiro valor do treino vai além da performance: está em construir confiança, saúde e uma evolução sustentável, num ambiente familiar.',
+    linkedInUrl: 'https://www.linkedin.com/in/henrique-lourenço-1171b5250/',
   },
   {
     id: 'pedro',
