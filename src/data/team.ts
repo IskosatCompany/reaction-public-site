@@ -7,9 +7,6 @@ import sergioPhoto from '@/assets/team/sergio-santos.webp';
 import tomasPhoto from '@/assets/team/tomas.webp';
 import type { Quote, TeamMember } from '@/types';
 
-/** Especialidade em falta — substituir quando for fornecida. */
-const PENDING_ROLE = 'Especialidade a confirmar';
-
 export const teamMembers: readonly TeamMember[] = [
   {
     id: 'sergio-santos',
@@ -53,7 +50,7 @@ export const teamMembers: readonly TeamMember[] = [
   {
     id: 'joana',
     name: 'Joana Feteira',
-    role: PENDING_ROLE,
+    role: 'Personal Trainer · Gestora de Clientes',
     photo: joanaPhoto,
     photoAlt: 'Joana Feteira, equipa Reaction',
     quote:
