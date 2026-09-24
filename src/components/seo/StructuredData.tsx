@@ -1,9 +1,7 @@
 import { site, socialLinks } from '@/data';
 
 // O link do Instagram ainda é genérico; só entram perfis reais da Reaction.
-const sameAs = socialLinks
-  .filter((link) => link.id === 'facebook' || link.id === 'google')
-  .map((link) => link.href);
+const sameAs = socialLinks.map((link) => link.href);
 
 const localBusiness = {
   '@context': 'https://schema.org',

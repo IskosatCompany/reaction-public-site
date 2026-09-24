@@ -52,7 +52,7 @@ export const contactDetails: readonly ContactDetail[] = [
 ];
 
 export const socialLinks: readonly SocialLink[] = [
-  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com' },
+  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/reaction.sergiosantos/' },
   { id: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/reaction.sergiosantos' },
   { id: 'google', label: 'Google Business', href: site.mapsUrl },
 ];
