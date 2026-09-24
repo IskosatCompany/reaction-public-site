@@ -30,7 +30,7 @@ export const teamMembers: readonly TeamMember[] = [
   {
     id: 'pedro',
     name: 'Pedro Cortesão',
-    role: 'Fisioterapeuta',
+    role: 'Fisioterapeuta · Performance Coach · Personal Trainer',
     photo: pedroPhoto,
     photoAlt: 'Pedro Cortesão, equipa Reaction',
     quote:
