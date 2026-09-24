@@ -63,9 +63,7 @@ export const teamMembers: readonly TeamMember[] = [
     role: 'Fisioterapeuta · Músculo-esquelética · Fisioterapia Desportiva · Strength & Conditioning',
     photo: joaoPhoto,
     photoAlt: 'João Ferreira, equipa Reaction',
-    quote:
-      'Cada pessoa tem potencial para ser mais capaz. Parto dos seus objetivos e uso o movimento para recuperar, desenvolver e potenciar a performance.',
-  },
+    quote: 'Cada pessoa tem potencial para ser mais capaz. A partir dos seus objetivos, uso o movimento para recuperar, desenvolver e potenciar a performance.'},
   {
     id: 'rita',
     name: 'Rita Martins',
