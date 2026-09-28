@@ -16,7 +16,7 @@ test.describe('Página inicial', () => {
 
   test('o hero mostra a proposta de valor e os dois CTAs', async ({ page }) => {
     const heading = page.getByRole('heading', { level: 1 });
-    await expect(heading).toHaveText('Da gestão da dor à optimização do desempenho.');
+    await expect(heading).toHaveText('Da gestão da dor à otimização do desempenho.');
 
     await expect(page.getByText('Seja qual for o ponto de partida.')).toBeVisible();
 
@@ -48,7 +48,7 @@ test.describe('Página inicial', () => {
   });
 
   test('lista os nove serviços', async ({ page }) => {
-    const cards = page.locator('#servicos li');
+    const cards = page.locator('#servicos ul').first().locator(':scope > li');
     await expect(cards).toHaveCount(SERVICES.length);
 
     for (const service of SERVICES) {

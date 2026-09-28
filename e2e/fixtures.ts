@@ -7,12 +7,12 @@
  */
 export const TEAM_MEMBERS = [
   'Sérgio Santos',
-  'Rita',
-  'Henrique',
-  'Joana',
-  'João',
-  'Pedro',
-  'Tomás',
+  'Henrique Lourenço',
+  'Pedro Cortesão',
+  'Tomás Abrantes',
+  'Joana Feteira',
+  'João Ferreira',
+  'Rita Martins',
 ] as const;
 
 export const SERVICES = [

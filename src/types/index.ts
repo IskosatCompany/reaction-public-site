@@ -7,6 +7,8 @@ export interface Service {
   id: string;
   title: string;
   description: string;
+  /** Ids (`TeamMember.id`) de quem da equipa acompanha este serviço. */
+  teamIds?: readonly string[];
 }
 
 export interface PositioningSlide {

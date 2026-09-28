@@ -58,7 +58,7 @@ test.describe('Carrossel de posicionamento', () => {
 });
 
 test.describe('Carrossel da equipa', () => {
-  test('percorre os oito membros', async ({ page }) => {
+  test('percorre todos os membros', async ({ page }) => {
     const section = await openSection(page, 'equipa');
 
     await expect(dots(section)).toHaveCount(TEAM_MEMBERS.length);
