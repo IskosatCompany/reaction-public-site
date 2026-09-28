@@ -12,8 +12,8 @@ export function About() {
           <Eyebrow>Posicionamento</Eyebrow>
           <h2 className={styles.title}>Uma nova visão sobre a Reabilitação</h2>
           <p className={styles.lead}>
-            A abordagem tradicional resolve episódios pontuais: dor, lesão, mas às vezes apenas com
-            alívio temporário.
+            A abordagem tradicional resolve episódios pontuais: dor, lesão, disfunção; mas muitas
+            vezes apenas com alívio temporário.
           </p>
           <p>
             Na Reaction partimos de uma visão diferente: a dor, as lesões e a performance não estão
@@ -30,7 +30,7 @@ export function About() {
         <img
           className={styles.image}
           src={therapy}
-          alt="Sérgio Santos em sessão de tratamento"
+          alt="Sérgio Santos em sessão de terapia"
           loading="lazy"
         />
       </div>

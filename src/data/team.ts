@@ -5,7 +5,7 @@ import joaoPhoto from '@/assets/team/joao.webp';
 import pedroPhoto from '@/assets/team/pedro.webp';
 import sergioPhoto from '@/assets/team/sergio-santos.webp';
 import tomasPhoto from '@/assets/team/tomas.webp';
-import type { Quote, TeamMember } from '@/types';
+import type { TeamMember } from '@/types';
 
 export const teamMembers: readonly TeamMember[] = [
   {
@@ -75,9 +75,3 @@ export const teamMembers: readonly TeamMember[] = [
     linkedInUrl: 'https://www.linkedin.com/in/ana-rita-martins-369a221b3/',
   },
 ];
-
-/** Citação do fundador, apresentada na secção Instalações. */
-export const founderQuote: Quote = {
-  text: 'Este espaço é a concretização de uma visão construída ao longo de vários anos, assente na qualidade da resposta, na proximidade e na procura constante da inovação e excelência. Queremos que cada pessoa que entra na Reaction encontre uma equipa preparada para a ajudar a recuperar, a evoluir e a atingir o seu melhor potencial.',
-  author: 'Sérgio Santos, Fundador',
-};

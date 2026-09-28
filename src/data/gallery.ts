@@ -1,8 +1,10 @@
-import entrance from '@/assets/entrance.webp';
-import facadeFront from '@/assets/facade-front.webp';
-import spaceInterior from '@/assets/space-interior.webp';
+import facade from '@/assets/facade.webp';
+import gymTwo from '@/assets/gym-2-fixed.webp';
+import spaceOpen from '@/assets/space-open.webp';
 import teamGroup from '@/assets/team-group.webp';
 import therapyLaser from '@/assets/therapy-laser.webp';
+import therapyManual from '@/assets/therapy-manual.webp';
+import training from '@/assets/training.webp';
 import type { GalleryImage } from '@/types';
 
 /** Foto de grupo, apresentada inteira (sem recorte) antes da grelha. */
@@ -13,8 +15,10 @@ export const teamGroupImage: GalleryImage = {
 };
 
 export const galleryImages: readonly GalleryImage[] = [
-  { id: 'entrance', src: entrance, alt: 'Reaction — entrada' },
-  { id: 'space-interior', src: spaceInterior, alt: 'Reaction — zona de treino' },
-  { id: 'facade-front', src: facadeFront, alt: 'Reaction — fachada, Coimbra' },
+  { id: 'training', src: training, alt: 'Reaction — sessão de treino', tall: true },
+  { id: 'facade', src: facade, alt: 'Reaction — fachada, Coimbra' },
+  { id: 'space-open', src: spaceOpen, alt: 'Reaction — zona de treino' },
+  { id: 'gym-2', src: gymTwo, alt: 'Reaction — equipamento de treino', tall: true },
+  { id: 'therapy-manual', src: therapyManual, alt: 'Reaction — sessão de terapia manual' },
   { id: 'therapy-laser', src: therapyLaser, alt: 'Reaction — sessão de laserterapia' },
 ];

@@ -28,11 +28,6 @@ export interface TeamMember {
   linkedInUrl?: string;
 }
 
-export interface Quote {
-  text: string;
-  author: string;
-}
-
 export interface HeroSlide {
   id: string;
   src: string;

@@ -4,4 +4,4 @@ export { navLinks } from './navigation';
 export { positioningSlides } from './positioning';
 export { services } from './services';
 export { contactDetails, legalLinks, site, socialLinks } from './site';
-export { founderQuote, teamMembers } from './team';
+export { teamMembers } from './team';

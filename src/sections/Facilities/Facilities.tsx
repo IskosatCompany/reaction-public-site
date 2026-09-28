@@ -1,6 +1,6 @@
 import { Section } from '@/components/layout';
 import { SectionHeading } from '@/components/ui';
-import { founderQuote, galleryImages, site, teamGroupImage } from '@/data';
+import { galleryImages, site, teamGroupImage } from '@/data';
 import { cx } from '@/utils';
 
 import styles from './Facilities.module.css';
@@ -13,10 +13,6 @@ export function Facilities() {
         title={site.city}
         description="Um espaço ao serviço da excelência no movimento — da reabilitação ao treino de alta performance."
       />
-
-      <blockquote className={styles.quote}>
-        “{founderQuote.text}”<cite>{founderQuote.author}</cite>
-      </blockquote>
 
       <img
         className={styles.feature}
