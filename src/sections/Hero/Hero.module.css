@@ -26,7 +26,7 @@
 
 /*
  * Afinado para 4 imagens (ciclo de 28 s): cada uma ocupa 25% do ciclo (7 s).
- * Transição cruzada de ~1 s (3.5%): a imagem seguinte aparece enquanto a
+ * Transição cruzada de ~1.5 s (5.5%): a imagem seguinte aparece enquanto a
  * anterior desaparece, sem intervalo a preto. Se o número de imagens mudar,
  * recalcular: 25% = 100% / nº de imagens.
  */
@@ -34,13 +34,13 @@
   0% {
     opacity: 0;
   }
-  3.5% {
+  5.5% {
     opacity: 1;
   }
   25% {
     opacity: 1;
   }
-  28.5% {
+  30.5% {
     opacity: 0;
   }
   100% {
