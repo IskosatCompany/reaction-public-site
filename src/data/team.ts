@@ -45,7 +45,7 @@ export const teamMembers: readonly TeamMember[] = [
     photo: tomasPhoto,
     photoAlt: 'Tomás Abrantes, equipa Reaction',
     quote:
-      'Cada pessoa tem um ponto de partida diferente. Construo o caminho à medida dos seus objetivos, para que cada sessão seja uma oportunidade de evoluir.',
+      'Cada pessoa tem um ponto de partida diferente. Construímos o caminho à medida dos seus objetivos, para que cada sessão seja uma oportunidade de evoluir.',
     linkedInUrl: 'https://www.linkedin.com/in/tomas-abrantes-311b04359/',
   },
   {
@@ -63,7 +63,7 @@ export const teamMembers: readonly TeamMember[] = [
     role: 'Fisioterapeuta · Músculo-esquelética · Fisioterapia Desportiva · Strength & Conditioning',
     photo: joaoPhoto,
     photoAlt: 'João Ferreira, equipa Reaction',
-    quote: 'Cada pessoa tem potencial para ser mais capaz. A partir dos seus objetivos, uso o movimento para recuperar, desenvolver e potenciar a performance.'},
+    quote: 'Cada pessoa tem potencial para ser mais capaz. A partir dos seus objetivos, usamos o movimento para recuperar, desenvolver e potenciar a performance.'},
   {
     id: 'rita',
     name: 'Rita Martins',
@@ -71,7 +71,7 @@ export const teamMembers: readonly TeamMember[] = [
     photo: ritaPhoto,
     photoAlt: 'Rita Martins, equipa Reaction',
     quote:
-      'Acredito numa abordagem individualizada, que ajude cada pessoa a recuperar a confiança no movimento e a viver com mais qualidade.',
+      'Acreditamos numa abordagem individualizada, que ajude cada pessoa a recuperar a confiança no movimento e a viver com mais qualidade.',
     linkedInUrl: 'https://www.linkedin.com/in/ana-rita-martins-369a221b3/',
   },
 ];
