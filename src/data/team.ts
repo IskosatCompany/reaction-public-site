@@ -2,6 +2,7 @@ import ritaPhoto from '@/assets/team/rita.webp';
 import henriquePhoto from '@/assets/team/henrique.webp';
 import joanaPhoto from '@/assets/team/joana.webp';
 import joaoPhoto from '@/assets/team/joao.webp';
+import mjCamposPhoto from '@/assets/team/mj-campos.webp';
 import pedroPhoto from '@/assets/team/pedro.webp';
 import sergioPhoto from '@/assets/team/sergio-santos.webp';
 import tomasPhoto from '@/assets/team/tomas.webp';
@@ -73,5 +74,16 @@ export const teamMembers: readonly TeamMember[] = [
     quote:
       'Acreditamos numa abordagem individualizada, que ajude cada pessoa a recuperar a confiança no movimento e a viver com mais qualidade.',
     linkedInUrl: 'https://www.linkedin.com/in/ana-rita-martins-369a221b3/',
+  },
+];
+
+/** Profissionais que acompanham serviços mas não aparecem na secção Equipa. */
+export const serviceCollaborators: readonly TeamMember[] = [
+  {
+    id: 'mj-campos',
+    name: 'MJ Campos',
+    role: 'Nutricionista',
+    photo: mjCamposPhoto,
+    photoAlt: 'Drª MJ Campos, nutricionista da Reaction',
   },
 ];

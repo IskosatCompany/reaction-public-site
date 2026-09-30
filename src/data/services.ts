@@ -43,6 +43,7 @@ export const services: readonly Service[] = [
     id: 'nutricao',
     title: 'Nutrição',
     description: 'Alimentação ajustada a objetivos e rotina.',
+    teamIds: ['mj-campos'],
   },
   {
     id: 'podologia',
