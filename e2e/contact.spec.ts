@@ -35,11 +35,13 @@ test.describe('Contactos', () => {
     }
   });
 
-  test('o mapa é incorporado com título acessível', async ({ page }) => {
+  test('o mapa só é carregado a pedido, com título acessível', async ({ page }) => {
     const map = page.locator('#contactos iframe');
+    await expect(map).toHaveCount(0);
+
+    await page.locator('#contactos').getByRole('button', { name: 'Mostrar mapa' }).click();
 
     await expect(map).toHaveAttribute('title', 'Localização da Reaction em Coimbra');
     await expect(map).toHaveAttribute('src', /google\.com\/maps/);
-    await expect(map).toHaveAttribute('loading', 'lazy');
   });
 });

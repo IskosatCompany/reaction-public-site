@@ -43,6 +43,10 @@ export interface GalleryImage {
   alt: string;
   /** Ocupa duas linhas na grelha da galeria. */
   tall?: boolean;
+  /** Ocupa duas colunas na grelha da galeria. */
+  wide?: boolean;
+  /** `object-position` da imagem; por omissão `center`. */
+  position?: string;
 }
 
 export interface ContactDetail {

@@ -86,7 +86,23 @@ test.describe('Página inicial', () => {
     await expect(
       footer.getByRole('link', { name: 'Livro de Reclamações Eletrónico' }),
     ).toHaveAttribute('href', 'https://www.livroreclamacoes.pt/Inicio/');
+    await expect(footer.getByRole('link', { name: 'Política de Privacidade' })).toHaveAttribute(
+      'href',
+      '/politica-privacidade/',
+    );
+    await expect(footer.getByRole('link', { name: 'Condições Gerais' })).toHaveAttribute(
+      'href',
+      '/condicoes-gerais/',
+    );
   });
+
+  for (const path of ['/politica-privacidade/', '/condicoes-gerais/']) {
+    test(`a página legal ${path} existe`, async ({ page }) => {
+      const response = await page.goto(path);
+      expect(response?.status()).toBe(200);
+      await expect(page.getByRole('link', { name: 'Voltar à página inicial' })).toBeVisible();
+    });
+  }
 
   test('não regista erros na consola', async ({ page }) => {
     const errors: string[] = [];

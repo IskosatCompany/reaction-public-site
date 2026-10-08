@@ -49,6 +49,7 @@ export const services: readonly Service[] = [
     id: 'podologia',
     title: 'Podologia',
     description: 'Avaliação e cuidado do apoio e da marcha.',
+    teamIds: ['andre-sousa'],
   },
   {
     id: 'psicologia',

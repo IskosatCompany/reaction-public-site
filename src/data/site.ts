@@ -58,8 +58,8 @@ export const socialLinks: readonly SocialLink[] = [
 ];
 
 export const legalLinks = [
-  { id: 'privacy', label: 'Política de Privacidade', href: '#', external: false },
-  { id: 'terms', label: 'Condições Gerais', href: '#', external: false },
+  { id: 'privacy', label: 'Política de Privacidade', href: '/politica-privacidade/', external: false },
+  { id: 'terms', label: 'Condições Gerais', href: '/condicoes-gerais/', external: false },
   {
     id: 'complaints',
     label: 'Livro de Reclamações Eletrónico',

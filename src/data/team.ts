@@ -1,3 +1,4 @@
+import andreSousaPhoto from '@/assets/team/andre-sousa.webp';
 import ritaPhoto from '@/assets/team/rita.webp';
 import henriquePhoto from '@/assets/team/henrique.webp';
 import joanaPhoto from '@/assets/team/joana.webp';
@@ -81,9 +82,20 @@ export const teamMembers: readonly TeamMember[] = [
 export const serviceCollaborators: readonly TeamMember[] = [
   {
     id: 'mj-campos',
-    name: 'MJ Campos',
+    name: 'Maria João Campos',
     role: 'Nutricionista',
     photo: mjCamposPhoto,
-    photoAlt: 'Drª MJ Campos, nutricionista da Reaction',
+    photoAlt: 'Drª Maria João Campos, nutricionista da Reaction',
+    quote:
+      'Na Reaction, tornamos a ciência da nutrição simples e aplicável ao teu dia a dia. Sem modas nem extremismos, promovemos escolhas alimentares eficazes, equilibradas e consistentes, adaptadas aos objetivos e necessidades de cada pessoa.',
+  },
+  {
+    id: 'andre-sousa',
+    name: 'André Sousa',
+    role: 'Podologista',
+    photo: andreSousaPhoto,
+    photoAlt: 'André Sousa, podologista da Reaction',
+    quote:
+      'Na Reaction, olhamos para os pés como parte integrante de todo o movimento. Da saúde e bem-estar à prática desportiva e à performance, cada intervenção é adaptada às necessidades de cada pessoa.',
   },
 ];
