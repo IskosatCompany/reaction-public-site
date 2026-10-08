@@ -12,8 +12,8 @@ export const galleryImages: readonly GalleryImage[] = [
     src: teamGroup,
     alt: 'Equipa Reaction nas instalações',
     wide: true,
-    // Recorta sobretudo o teto, para não cortar os pés.
-    position: 'center 85%',
+    // Prioriza o topo: as caras ficam sempre visíveis e corta-se a parte inferior do corpo.
+    position: 'center 30%',
   },
   { id: 'gym-2', src: gymTwo, alt: 'Reaction — equipamento de treino', tall: true },
   { id: 'facade', src: facade, alt: 'Reaction — fachada, Coimbra' },

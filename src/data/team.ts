@@ -76,16 +76,12 @@ export const teamMembers: readonly TeamMember[] = [
       'Acreditamos numa abordagem individualizada, que ajude cada pessoa a recuperar a confiança no movimento e a viver com mais qualidade.',
     linkedInUrl: 'https://www.linkedin.com/in/ana-rita-martins-369a221b3/',
   },
-];
-
-/** Profissionais que acompanham serviços mas não aparecem na secção Equipa. */
-export const serviceCollaborators: readonly TeamMember[] = [
   {
     id: 'mj-campos',
     name: 'Maria João Campos',
     role: 'Nutricionista',
     photo: mjCamposPhoto,
-    photoAlt: 'Drª Maria João Campos, nutricionista da Reaction',
+    photoAlt: 'Maria João Campos, equipa Reaction',
     quote:
       'Na Reaction, tornamos a ciência da nutrição simples e aplicável ao teu dia a dia. Sem modas nem extremismos, promovemos escolhas alimentares eficazes, equilibradas e consistentes, adaptadas aos objetivos e necessidades de cada pessoa.',
   },
@@ -94,7 +90,7 @@ export const serviceCollaborators: readonly TeamMember[] = [
     name: 'André Sousa',
     role: 'Podologista',
     photo: andreSousaPhoto,
-    photoAlt: 'André Sousa, podologista da Reaction',
+    photoAlt: 'André Sousa, equipa Reaction',
     quote:
       'Na Reaction, olhamos para os pés como parte integrante de todo o movimento. Da saúde e bem-estar à prática desportiva e à performance, cada intervenção é adaptada às necessidades de cada pessoa.',
   },

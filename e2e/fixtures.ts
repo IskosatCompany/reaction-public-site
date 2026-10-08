@@ -13,6 +13,8 @@ export const TEAM_MEMBERS = [
   'Joana Feteira',
   'João Ferreira',
   'Rita Martins',
+  'Maria João Campos',
+  'André Sousa',
 ] as const;
 
 export const SERVICES = [
