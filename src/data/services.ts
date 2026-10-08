@@ -38,6 +38,7 @@ export const services: readonly Service[] = [
     id: 'yoga',
     title: 'Yoga',
     description: 'Respiração, mobilidade e regulação do sistema nervoso.',
+    teamIds: ['mel'],
   },
   {
     id: 'nutricao',

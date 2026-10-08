@@ -15,6 +15,7 @@ export const TEAM_MEMBERS = [
   'Rita Martins',
   'Maria João Campos',
   'André Sousa',
+  'Mel',
 ] as const;
 
 export const SERVICES = [

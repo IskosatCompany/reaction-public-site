@@ -3,6 +3,7 @@ import ritaPhoto from '@/assets/team/rita.webp';
 import henriquePhoto from '@/assets/team/henrique.webp';
 import joanaPhoto from '@/assets/team/joana.webp';
 import joaoPhoto from '@/assets/team/joao.webp';
+import melPhoto from '@/assets/team/mel.webp';
 import mjCamposPhoto from '@/assets/team/mj-campos.webp';
 import pedroPhoto from '@/assets/team/pedro.webp';
 import sergioPhoto from '@/assets/team/sergio-santos.webp';
@@ -93,5 +94,12 @@ export const teamMembers: readonly TeamMember[] = [
     photoAlt: 'André Sousa, equipa Reaction',
     quote:
       'Na Reaction, olhamos para os pés como parte integrante de todo o movimento. Da saúde e bem-estar à prática desportiva e à performance, cada intervenção é adaptada às necessidades de cada pessoa.',
+  },
+  {
+    id: 'mel',
+    name: 'Mel',
+    role: 'Professora de Yoga',
+    photo: melPhoto,
+    photoAlt: 'Mel, equipa Reaction',
   },
 ];
