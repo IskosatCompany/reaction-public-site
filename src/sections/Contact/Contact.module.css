@@ -71,6 +71,8 @@
 }
 
 .mapConsent {
+  position: relative;
+  isolation: isolate;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,6 +88,17 @@
 
 .mapConsent p {
   max-width: 42ch;
+}
+
+/* Fica por baixo do aviso, escurecido para o texto e o botão continuarem legíveis. */
+.mapPreview {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35;
 }
 
 .mapConsent a {

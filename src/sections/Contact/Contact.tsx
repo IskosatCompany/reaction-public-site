@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import mapPreview from '@/assets/map.webp';
 import { Section } from '@/components/layout';
 import { SectionHeading, SocialLinks } from '@/components/ui';
 import { contactDetails, site, socialLinks } from '@/data';
@@ -51,6 +52,8 @@ export function Contact() {
             />
           ) : (
             <div className={styles.mapConsent}>
+              {/* Print estático do mapa, alojado no site: não envia dados à Google. */}
+              <img className={styles.mapPreview} src={mapPreview} alt="" loading="lazy" />
               <p>
                 O mapa é fornecido pelo Google Maps. Ao carregá-lo, a Google pode recolher dados
                 como o teu endereço IP. Sabe mais na nossa{' '}
