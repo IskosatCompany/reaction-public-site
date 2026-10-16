@@ -18,7 +18,7 @@ export const teamMembers: readonly TeamMember[] = [
     photo: sergioPhoto,
     photoAlt: 'Sérgio Santos, fundador da Reaction',
     quote:
-      'Qualquer atividade física, seja ela de reabilitação ou de otimização da performance, tem sempre o mesmo objetivo: a excelência do movimento.',
+      'A Reaction nasceu da convicção de que a saúde e o exercício caminham lado a lado. Unimos ciência, conhecimento e movimento de excelência para ajudar cada pessoa a alcançar o seu potencial.',
     linkedInUrl: 'https://www.linkedin.com/in/sérgio-de-sousa-santos-6587a652/',
   },
   {
