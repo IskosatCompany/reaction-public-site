@@ -15,8 +15,11 @@
   transition: background var(--transition-fast);
 }
 
-.card:hover {
-  background: var(--color-near-black);
+/* Só em dispositivos com rato: em ecrãs táteis o :hover fica preso no último cartão tocado. */
+@media (hover: hover) {
+  .card:hover {
+    background: var(--color-near-black);
+  }
 }
 
 .card:focus-visible {
@@ -44,9 +47,15 @@
   transition: opacity var(--transition-fast);
 }
 
-.card:hover .team,
+/* Em ecrãs táteis só o foco abre o painel, e só um cartão tem foco de cada vez. */
 .card:focus-within .team {
   opacity: 1;
+}
+
+@media (hover: hover) {
+  .card:hover .team {
+    opacity: 1;
+  }
 }
 
 .teamLabel {
