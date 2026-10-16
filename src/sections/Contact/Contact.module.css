@@ -28,6 +28,15 @@
   padding-top: 2px;
 }
 
+.valueGroup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 12px;
+  row-gap: 4px;
+  min-width: 0;
+}
+
 .value {
   font-size: 18px;
   transition: color var(--transition-fast);
@@ -35,6 +44,11 @@
 
 .value:hover {
   color: var(--color-red);
+}
+
+.note {
+  color: var(--color-text-muted);
+  font-size: 13px;
 }
 
 .socials {

@@ -24,13 +24,16 @@ export function Contact() {
             {contactDetails.map((detail) => (
               <li key={detail.id} className={styles.item}>
                 <span className={styles.label}>{detail.label}</span>
-                <a
-                  className={styles.value}
-                  href={detail.href}
-                  {...(detail.external ? { target: '_blank', rel: 'noopener noreferrer' } : null)}
-                >
-                  {detail.value}
-                </a>
+                <div className={styles.valueGroup}>
+                  <a
+                    className={styles.value}
+                    href={detail.href}
+                    {...(detail.external ? { target: '_blank', rel: 'noopener noreferrer' } : null)}
+                  >
+                    {detail.value}
+                  </a>
+                  {detail.note && <span className={styles.note}>{detail.note}</span>}
+                </div>
               </li>
             ))}
           </ul>

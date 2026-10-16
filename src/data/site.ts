@@ -42,6 +42,7 @@ export const contactDetails: readonly ContactDetail[] = [
     label: 'Telefone',
     value: site.phone,
     href: `tel:${site.phoneE164}`,
+    note: '(Chamada para rede móvel nacional)',
   },
   {
     id: 'email',

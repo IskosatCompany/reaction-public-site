@@ -55,6 +55,8 @@ export interface ContactDetail {
   value: string;
   href: string;
   external?: boolean;
+  /** Nota mostrada à frente do valor (ex.: custo da chamada). */
+  note?: string;
 }
 
 export type SocialNetwork = 'instagram' | 'facebook' | 'google' | 'linkedin';
