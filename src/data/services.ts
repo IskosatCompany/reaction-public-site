@@ -1,7 +1,7 @@
 import type { Service } from '@/types';
 
-const trainers = ['sergio-santos', 'henrique', 'tomas', 'pedro', 'joao', 'joana'];
-const functional = [ 'henrique', 'tomas', 'rita', 'joana', 'pedro', 'joao' ];
+const trainers = ['sergio-santos', 'henrique', 'tomas', 'joao', 'pedro', 'joana'];
+const functional = [ 'henrique', 'tomas', 'rita', 'joana', 'joao', 'pedro' ];
 
 
 export const services: readonly Service[] = [
