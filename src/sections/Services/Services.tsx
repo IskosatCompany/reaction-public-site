@@ -1,16 +1,20 @@
 import { Section } from '@/components/layout';
 import { SectionHeading } from '@/components/ui';
 import { services, teamMembers } from '@/data';
-import type { Service } from '@/types';
+import type { Service, TeamMember } from '@/types';
 
 import styles from './Services.module.css';
 
 /** Numeração visível dos cartões: 01, 02, … */
 const formatNumber = (index: number) => String(index + 1).padStart(2, '0');
 
-/** Quem acompanha o serviço, pela ordem da secção Equipa. */
+const membersById = new Map(teamMembers.map((member) => [member.id, member]));
+
+/** Quem acompanha o serviço, pela ordem definida em `teamIds`. */
 const membersOf = (service: Service) =>
-  teamMembers.filter((member) => service.teamIds?.includes(member.id));
+  (service.teamIds ?? [])
+    .map((id) => membersById.get(id))
+    .filter((member): member is TeamMember => member !== undefined);
 
 export function Services() {
   return (
