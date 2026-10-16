@@ -97,10 +97,10 @@ export const teamMembers: readonly TeamMember[] = [
   },
   {
     id: 'mel',
-    name: 'Mel',
+    name: 'Melisa Galvão',
     role: 'Professora de Yoga',
     photo: melPhoto,
-    photoAlt: 'Mel, equipa Reaction',
+    photoAlt: 'Melisa Galvão, equipa Reaction',
     quote:"Na Reaction, o yoga combina movimento, força, mobilidade e equilíbrio, promovendo a consciência corporal e a capacidade de nos movermos melhor, dentro e fora do tapete.",
   },
 ];

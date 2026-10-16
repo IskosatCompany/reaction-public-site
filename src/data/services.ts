@@ -1,7 +1,8 @@
 import type { Service } from '@/types';
 
-/** Treino Funcional e de Alta Performance: toda a equipa exceto a Rita. */
-const trainers = ['sergio-santos', 'henrique', 'pedro', 'tomas', 'joana', 'joao'];
+const trainers = ['sergio-santos', 'henrique', 'tomas', 'pedro', 'joao', 'joana'];
+const functional = [ 'henrique', 'tomas', 'rita', 'joana', 'pedro', 'joao' ];
+
 
 export const services: readonly Service[] = [
   {
@@ -20,7 +21,7 @@ export const services: readonly Service[] = [
     id: 'treino-funcional',
     title: 'Treino Funcional',
     description: 'Movimento aplicado à vida real.',
-    teamIds: trainers,
+    teamIds: functional,
   },
   {
     id: 'alta-performance',
