@@ -26,6 +26,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'henrique',
     name: 'Henrique Lourenço',
     role: 'Performance Coach · Personal Trainer · Treino Desportivo e de Futebol',
+    credential: 'IPDJ: 135443',
     photo: henriquePhoto,
     photoAlt: 'Henrique Lourenço, equipa Reaction',
     quote:
@@ -47,6 +48,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'tomas',
     name: 'Tomás Abrantes',
     role: 'Performance Coach · Personal Trainer',
+    credential: 'IPDJ: 107519',
     photo: tomasPhoto,
     photoAlt: 'Tomás Abrantes, equipa Reaction',
     quote:
@@ -57,6 +59,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'joana',
     name: 'Joana Feteira',
     role: 'Personal Trainer · Gestora de Clientes',
+    credential: 'IPDJ: 144308',
     photo: joanaPhoto,
     photoAlt: 'Joana Feteira, equipa Reaction',
     quote:
@@ -95,7 +98,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'andre-sousa',
     name: 'André Sousa',
     role: 'Podologista',
-    credential: 'Cédula profissional: 535',
+    credential: 'ACSS: 535',
     photo: andreSousaPhoto,
     photoAlt: 'André Sousa, equipa Reaction',
     quote:
