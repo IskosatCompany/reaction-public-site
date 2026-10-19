@@ -15,6 +15,7 @@ export function TeamMemberCard({ member }: TeamMemberCardProps) {
       <div>
         <h3 className={styles.name}>{member.name}</h3>
         <p className={styles.role}>{member.role}</p>
+        {member.credential ? <p className={styles.credential}>{member.credential}</p> : null}
 
         {member.quote ? <blockquote className={styles.quote}>“{member.quote}”</blockquote> : null}
 

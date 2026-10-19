@@ -24,6 +24,8 @@ export interface TeamMember {
   role: string;
   photo: string;
   photoAlt: string;
+  /** Cédula profissional, já no formato a mostrar (ex.: `OF: 1978`, `ON: 2119N`). */
+  credential?: string;
   bio?: string;
   /** Frase pessoal, apresentada como citação no cartão. */
   quote?: string;

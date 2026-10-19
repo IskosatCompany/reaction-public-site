@@ -12,7 +12,10 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <Container className={styles.inner}>
-        <img src={logo} alt={site.name} className={styles.logo} />
+        <div className={styles.brand}>
+          <img src={logo} alt={site.name} className={styles.logo} />
+          <p className={styles.registration}>{site.healthRegistration}</p>
+        </div>
         {/* O ano vem do build pré-renderizado e pode diferir do ano no browser. */}
         <p className={styles.copyright} suppressHydrationWarning>
           © {currentYear} {site.name} — {site.tagline}. {site.city}.
