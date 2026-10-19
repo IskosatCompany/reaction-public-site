@@ -28,6 +28,13 @@
   letter-spacing: 0;
 }
 
+.credential {
+  margin-top: 6px;
+  font-size: 15px;
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
+
 .quote {
   margin-top: 22px;
   padding-left: 20px;

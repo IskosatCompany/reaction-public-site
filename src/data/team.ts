@@ -15,6 +15,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'sergio-santos',
     name: 'Sérgio Santos',
     role: 'Fundador e Coordenador Clínico · Osteopata · Performance Coach',
+    credential: 'ACSS: C-0031998',
     photo: sergioPhoto,
     photoAlt: 'Sérgio Santos, fundador da Reaction',
     quote:
@@ -35,6 +36,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'pedro',
     name: 'Pedro Cortesão',
     role: 'Fisioterapeuta · Performance Coach · Personal Trainer',
+    credential: 'OF: 5956',
     photo: pedroPhoto,
     photoAlt: 'Pedro Cortesão, equipa Reaction',
     quote:
@@ -64,6 +66,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'joao',
     name: 'João Ferreira',
     role: 'Fisioterapeuta · Músculo-esquelética · Fisioterapia Desportiva · Strength & Conditioning',
+    credential: 'OF: 8830',
     photo: joaoPhoto,
     photoAlt: 'João Ferreira, equipa Reaction',
     quote: 'Cada pessoa tem potencial para ser mais capaz. A partir dos seus objetivos, usamos o movimento para recuperar, desenvolver e potenciar a performance.'},
@@ -71,6 +74,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'rita',
     name: 'Rita Martins',
     role: 'Fisioterapeuta · Músculo-esquelética · Pilates Clínico',
+    credential: 'OF: 1978',
     photo: ritaPhoto,
     photoAlt: 'Rita Martins, equipa Reaction',
     quote:
@@ -81,6 +85,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'mj-campos',
     name: 'Maria João Campos',
     role: 'Nutricionista',
+    credential: 'ON: 2119N',
     photo: mjCamposPhoto,
     photoAlt: 'Maria João Campos, equipa Reaction',
     quote:
@@ -90,6 +95,7 @@ export const teamMembers: readonly TeamMember[] = [
     id: 'andre-sousa',
     name: 'André Sousa',
     role: 'Podologista',
+    credential: 'Cédula profissional: 535',
     photo: andreSousaPhoto,
     photoAlt: 'André Sousa, equipa Reaction',
     quote:
