@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 64px;
 }
 
@@ -39,6 +39,8 @@
 
 .value {
   font-size: 18px;
+  /* O email é uma só palavra comprida e, sem isto, alarga a página em ecrãs estreitos. */
+  overflow-wrap: anywhere;
   transition: color var(--transition-fast);
 }
 
@@ -130,6 +132,6 @@
 
 @media (max-width: 860px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
