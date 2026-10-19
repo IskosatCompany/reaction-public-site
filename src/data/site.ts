@@ -5,6 +5,8 @@ export const site = {
   url: 'https://reaction.pt',
   tagline: 'Centro de Reabilitação e Performance',
   city: 'Coimbra',
+  /** Registo na Entidade Reguladora da Saúde e licença de funcionamento. */
+  healthRegistration: 'ERS 176833 | LF 27103/2026',
   phone: '910 372 125',
   phoneE164: '+351910372125',
   whatsAppUrl: 'https://wa.me/351910372125',
